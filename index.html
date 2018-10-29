@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jasper's Horoscope</title>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" hRef="style.css"/>
+</head>
+<body>
+<h1>Horoscope</h1>
+
+<div id="all">
+
+<p id="myName">Made by: Jasper Reynolds</p>
+<p>What is your name?</p>
+<input type="text" id="yourName"/>
+<p>What month were you born in?</p>
+<select id="monthBorn">
+    <option value="0">January</option>
+    <option value="1">February</option>
+    <option value="2">March</option>
+    <option value="3">April</option>
+    <option value="4">May</option>
+    <option value="5">June</option>
+    <option value="6">July</option>
+    <option value="7">August</option>
+    <option value="8">September</option>
+    <option value="9">October</option>
+    <option value="10">November</option>
+    <option value="11">December</option>
+</select>
+<p>What day were you born on?</p>
+<select id="dayBorn">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+    <option>13</option>
+    <option>14</option>
+    <option>15</option>
+    <option>16</option>
+    <option>17</option>
+    <option>18</option>
+    <option>19</option>
+    <option>20</option>
+    <option>21</option>
+    <option>22</option>
+    <option>23</option>
+    <option>24</option>
+    <option>25</option>
+    <option>26</option>
+    <option>27</option>
+    <option>28</option>
+    <option>29</option>
+    <option>30</option>
+    <option>31</option>
+</select>
+<br>
+<button id="yourHoroscope" onclick="onSubmit()">Run Horoscope</button>
+
+</div>
+
+<br>
+<div id="userName"></div>
+<div id="yourSign"></div>
+<div id="image"></div>
+<div id="yourMessage"></div>
+
+<div id="resetButton">
+<button id="reset" onclick="newEntry()">Play again!</button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+body{
+    background-color: purple;
+    font-family: "Century Gothic";
+    color: blanchedalmond;
+    margin: 150px;
+}
+h1{
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    border: 10px solid white;
+    padding: 25px;
+}
+#userName, #yourSign, #yourMessage{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+#image{
+    position: relative;
+    text-align: center;
+}
+
+#reset{
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+#resetButton {
+    margin:auto;
+    width: 10%;
+    text-align:center;
+}
+
